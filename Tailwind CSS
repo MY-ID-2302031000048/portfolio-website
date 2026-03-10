@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Event</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- Hero -->
+<section class="bg-purple-600 text-white text-center p-20">
+<h1 class="text-5xl font-bold">Tech Fest 2026</h1>
+<p class="mt-4">Join the biggest college technology event</p>
+<button class="mt-6 bg-white text-purple-600 px-6 py-2 rounded">
+Register Now
+</button>
+</section>
+
+<!-- Event Details -->
+<section class="p-10 text-center">
+<h2 class="text-3xl font-bold">Event Details</h2>
+<p class="mt-4">Date: 20 April 2026</p>
+<p>Location: College Auditorium</p>
+</section>
+
+<!-- Schedule -->
+<section class="p-10 bg-white">
+<h2 class="text-3xl font-bold text-center">Event Schedule</h2>
+
+<div class="grid md:grid-cols-3 gap-6 mt-8">
+
+<div class="p-6 shadow rounded">
+<h3 class="font-bold">Coding Competition</h3>
+<p>10:00 AM</p>
+</div>
+
+<div class="p-6 shadow rounded">
+<h3 class="font-bold">Tech Talk</h3>
+<p>12:00 PM</p>
+</div>
+
+<div class="p-6 shadow rounded">
+<h3 class="font-bold">Project Expo</h3>
+<p>2:00 PM</p>
+</div>
+
+</div>
+</section>
+
+<footer class="bg-purple-600 text-white text-center p-4">
+© 2026 Tech Fest
+</footer>
+
+</body>
+</html>
